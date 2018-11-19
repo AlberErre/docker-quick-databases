@@ -3,9 +3,9 @@ Set up a quick mariaDB database using docker
 
 ## Configuration
 
-You need to modify `run.sh`, pointing it to your local storage - e.g. Mac OSX local machine
+You need to modify `run.sh`, pointing it to your local storage - e.g. Mac OSX local machine `/Users/mariadb`
 ```
-docker run -e MYSQL_ROOT_PASSWORD=1234 -d -p 3333:3306 -v /Users/db/mariadb:/var/lib/mysql mariadb
+docker run -e MYSQL_ROOT_PASSWORD=1234 -d -p 3333:3306 -v /Users/mariadb:/var/lib/mysql mariadb
 ```
 If you are on MacOS, this config is ready to go!
 
