@@ -27,3 +27,11 @@ You can use [SQLElectron](https://sqlectron.github.io/) to interact with your da
 
 ### Config SQLElectron exmaple
 ![SQLElectron config example (Mac OS)](https://github.com/AlberErre/docker-mariaDB/blob/master/mariaDB-example.png)
+
+## Kill your docker container (MariaDB)
+
+```
+docker kill DOCKER_UUID
+```
+
+Happy shipping!
