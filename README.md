@@ -1,4 +1,4 @@
-# docker-mariaDB
+# Docker Container + MariaDB ![Docker_MariaDB](https://github.com/AlberErre/docker-mariaDB/blob/master/docker_mariadb.png)
 Set up a quick mariaDB database using docker
 
 ## Configuration
@@ -27,7 +27,7 @@ docker ps
 
 You can use [SQLElectron](https://sqlectron.github.io/) to interact with your database, run queries, etc. 
 
-### Config SQLElectron exmaple
+### Config SQLElectron example
 ![SQLElectron config example (Mac OS)](https://github.com/AlberErre/docker-mariaDB/blob/master/mariaDB-example.png)
 
 ## Kill your docker container (MariaDB)
