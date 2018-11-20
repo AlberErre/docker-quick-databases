@@ -12,10 +12,11 @@ If you are on MacOS, this config is ready to go!
 ## Running Docker
 ```
 git clone https://github.com/AlberErre/docker-mariaDB.git
-sudo mkdir /Users/mariadb
+mkdir /Users/mariadb
 cd docker-mariaDB
-sudo bash run.sh
+bash run.sh
 ```
+Note: use `sudo` if needed.
 
 If everything was ok, you should have a docker container running in the background.
 To ensure it's running just use:
