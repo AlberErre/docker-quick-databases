@@ -14,11 +14,6 @@ docker run -p 27017:27017 -d -v /Users/mongodb:/data/db mongo
 ```
 If you are on MacOS, this config is ready to go!
 
-## Check if MongoDB is running correctly on its port
-```
-netstat ao | grep 27017
-```
-
 ## Running Docker
 ```
 mkdir /Users/mongodb
@@ -35,9 +30,20 @@ To ensure it's running just use:
 docker ps
 ```
 
+## Check if MongoDB is running correctly on its port
+```
+netstat ao | grep 27017
+```
+
 ## Interacting with your database
 
 You can use [Robo 3T](https://robomongo.org/) to interact with your database, run queries, etc. 
+
+## Kill your mongodb docker container
+
+```
+docker kill DOCKER_UUID
+```
 
 ---
 
@@ -75,12 +81,13 @@ You can use [SQLElectron](https://sqlectron.github.io/) to interact with your da
 ### Config SQLElectron example
 ![SQLElectron config example (Mac OS)](https://github.com/AlberErre/docker-mariaDB/blob/master/mariaDB-example.png)
 
----
 
-# Kill your docker container
+## Kill your mongodb docker container
 
 ```
 docker kill DOCKER_UUID
 ```
+
+---
 
 ## Happy shipping!
