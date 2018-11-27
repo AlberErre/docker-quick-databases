@@ -39,7 +39,7 @@ netstat ao | grep 27017
 
 You can use [Robo 3T](https://robomongo.org/) to interact with your database, run queries, etc. 
 
-## Kill your mongodb docker container
+## Kill your MongoDB docker container
 
 ```
 docker kill DOCKER_UUID
@@ -82,7 +82,7 @@ You can use [SQLElectron](https://sqlectron.github.io/) to interact with your da
 ![SQLElectron config example (Mac OS)](https://github.com/AlberErre/docker-mariaDB/blob/master/mariaDB-example.png)
 
 
-## Kill your mongodb docker container
+## Kill your MariaDB docker container
 
 ```
 docker kill DOCKER_UUID
