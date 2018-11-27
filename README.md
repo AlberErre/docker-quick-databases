@@ -1,10 +1,10 @@
 
-# Docker Containers for quick databases (MongoDB + MariaDB)
+# Quick databases using Docker containers
 ```
 Just run a docker container and play with the data!
 ```
 
-# MongoDB
+# MongoDB ![Docker_MongoDB](https://raw.githubusercontent.com/AlberErre/docker-quick-databases/master/sample-mongodb-docker.png)
 
 ## Configuration - MongoDB
 
@@ -41,8 +41,8 @@ You can use [Robo 3T](https://robomongo.org/) to interact with your database, ru
 
 ---
 
-# MariaDB ![Docker_MariaDB](https://github.com/AlberErre/docker-mariaDB/blob/master/docker_mariadb.png)
-Set up a quick mariaDB database using docker
+# MariaDB 
+# ![Docker_MariaDB](https://github.com/AlberErre/docker-mariaDB/blob/master/docker_mariadb.png)
 
 ## Configuration - MariaDB
 
