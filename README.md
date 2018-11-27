@@ -1,5 +1,10 @@
 
-# Docker Container + MongoDB
+# Docker Containers for quick databases (MongoDB + MariaDB)
+```
+Just run a docker container and play with the data!
+```
+
+# MongoDB
 
 ## Configuration - MongoDB
 
@@ -16,9 +21,10 @@ netstat ao | grep 27017
 
 ## Running Docker
 ```
-git clone https://github.com/AlberErre/docker-databases.git
 mkdir /Users/mongodb
-cd docker-databases/MongoDB
+
+git clone https://github.com/AlberErre/docker-quick-databases.git
+cd docker-quick-databases/MongoDB
 bash run.sh
 ```
 Note: use `sudo` if needed.
@@ -29,8 +35,13 @@ To ensure it's running just use:
 docker ps
 ```
 
+## Interacting with your database
 
-# Docker Container + MariaDB ![Docker_MariaDB](https://github.com/AlberErre/docker-mariaDB/blob/master/docker_mariadb.png)
+You can use [Robo 3T](https://robomongo.org/) to interact with your database, run queries, etc. 
+
+---
+
+# MariaDB ![Docker_MariaDB](https://github.com/AlberErre/docker-mariaDB/blob/master/docker_mariadb.png)
 Set up a quick mariaDB database using docker
 
 ## Configuration - MariaDB
@@ -43,9 +54,10 @@ If you are on MacOS, this config is ready to go!
 
 ## Running Docker
 ```
-git clone https://github.com/AlberErre/docker-databases.git
 mkdir /Users/mariadb
-cd docker-databases/MariaDB
+
+git clone https://github.com/AlberErre/docker-quick-databases.git
+cd docker-quick-databases/MariaDB
 bash run.sh
 ```
 Note: use `sudo` if needed.
@@ -63,7 +75,9 @@ You can use [SQLElectron](https://sqlectron.github.io/) to interact with your da
 ### Config SQLElectron example
 ![SQLElectron config example (Mac OS)](https://github.com/AlberErre/docker-mariaDB/blob/master/mariaDB-example.png)
 
-## Kill your docker container (MariaDB)
+---
+
+# Kill your docker container
 
 ```
 docker kill DOCKER_UUID
